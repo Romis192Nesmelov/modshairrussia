@@ -1,0 +1,8 @@
+/media
+/system
+/app/Config/Database.php
+/writable
+/.idea
+/index.php
+/assets/css/package.json
+/assets/css/package-lock.json
