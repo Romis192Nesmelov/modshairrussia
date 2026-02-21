@@ -38,7 +38,7 @@
             <span class="timer-section second-1">0</span>
             <span class="timer-section second-2">0</span>
         </div>
-        <div class="promo-footer__title promo-footer__title--big">Запишитесь на две услуги и получите скидку 20% на первый визит!</div>
+        <div class="promo-footer__title promo-footer__title--big">Запишитесь на любую услугу и получите скидку 20% на первый визит!</div>
         <button class="promo-footer__cta" style="border-radius: 15px" type="button" sanity-popup-trigger="promo-offer">
             Записаться!
         </button>
