@@ -18,7 +18,7 @@
                 <a class="txt header__menu__item" href="#Team">Специалисты</a>
                 <a class="txt header__menu__item" href="#Benefits">Преимущества</a>
                 <a class="txt header__menu__item" href="#Pricelist">Меню</a>
-                <a class="txt header__menu__item" href="#TotalLook">Полный образ</a>
+                <a class="txt header__menu__item" href="#TotalLook"><nobr>Полный образ</nobr></a>
                 <a class="txt header__menu__item" href="/blog">Блог</a>
                 <a class="txt header__menu__item mobile-header-item" href="/la_french">Окрашивание La french</a>
                 <a class="header__phone header__menu__item txt roistat_number mobile-header-item"
@@ -30,7 +30,7 @@
         </nav>
         <a class="header__phone txt roistat_number"
            onclick="yaCounter53846524.reachGoal('KlicknaTelefon'); gtag('event', 'done', {'event_category': 'KlicknaTelefon'});"
-           href="tel:<?= SITE_PHONE_LINK; ?>"><?= file_get_contents('./assets/misc/phone.svg'); ?> <?= SITE_PHONE; ?></a>
+           href="tel:<?= SITE_PHONE_LINK; ?>"><?= file_get_contents('./assets/misc/phone.svg'); ?> <nobr><?= SITE_PHONE; ?></nobr></a>
         <button type="button" class="header__burger" aria-label="mobile menu">
             <span></span>
             <span></span>
