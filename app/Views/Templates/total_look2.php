@@ -2,8 +2,7 @@
 <section class="section template_total-look" id="TotalLook">
     <div>
         <div class="section__heading">
-            <h3 class="section__heading__title">Отличие французского салона красоты <?= PROJECT_HTML; ?><span class="color_primary"> - Total Look - </span>
-                подбор<span> индивидуального образа</span></h3>
+            <h3 class="section__heading__title">Отличие французского салона красоты <?= PROJECT_HTML; ?> – подбор<span> индивидуального образа</span></h3>
 
             <p class="section__heading__subtitle">
                 <span class="template_total-look__sep">/</span>Стрижка +

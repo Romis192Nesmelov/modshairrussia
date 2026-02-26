@@ -3206,6 +3206,12 @@ b, .template_benefits .template_benefits__inner .template_benefits__inner__item 
   margin-bottom: var(--size_xxxs)
 }
 
+.sub_title {
+    position: relative;
+    margin-top: calc(-1 * var(--size_xxxs));
+    margin-bottom: var(--size_xxxs);
+}
+
 @media only screen and (max-width: 767px) {
   .template_total-look .template_total-look__slider .template_total-look__slider__item .template_total-look__slider__item__content .template_total-look__slider__item__content__list .template_total-look__slider__item__content__list__item .template_total-look__slider__item__content__list__item__title {
     font-size: 1rem
