@@ -13,16 +13,16 @@
             <iframe src="https://vkvideo.ru/video_ext.php?oid=542365921&id=456239022&hd=2&autoplay=1" style="width: 100%; border: 0 none" height="400" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
         </div>
         <?php $steps = [
-            'nail_1' => [
-                'slug' => 'nail_1',
-                'title' => 'Nail сервис в салоне ' . PROJECT,
-                'title_html' => 'Nail сервис <span class="whitespace_no-wrap">в салоне</span> ' . PROJECT_HTML,
+            'ногтевой_1' => [
+                'slug' => 'ногтевой_1',
+                'title' => 'ногтевой сервис в салоне' . PROJECT,
+                'title_html' => 'ногтевой сервис <span class="whitespace_no-wrap">в салоне</span> ' . PROJECT_HTML,
                 'content' => 'Настоящее наслаждение для ваших рук и ног Комплексный подход включает массаж, скрабирование рук,   придание формы, покрытие, масло для кутикулы. Может быть как аппаратных, европейский, так и классический.',
             ],
-            'nail_2' => [
-                'slug' => 'nail_2',
-                'title' => 'Совершенный nail сервис',
-                'title_html' => 'Совершенный nail сервис',
+            'ногтевой_2' => [
+                'slug' => 'ногтевой_2',
+                'title' => 'Совершенный ногтевой сервис',
+                'title_html' => 'Совершенный ногтевой сервис',
                 'content' => 'в сочетании с идеальным, культовым покрытием широкой палитры сочных оттенков лака Smith & Cult'
             ],
             'haircut' => [

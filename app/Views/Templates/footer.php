@@ -22,7 +22,7 @@
                 <a class="txt footer__menu__item" href="#Team">Специалисты</a>
                 <a class="txt footer__menu__item" href="#Benefits">Преимущества</a>
                 <a class="txt footer__menu__item" href="#Pricelist">Меню</a>
-                <a class="txt footer__menu__item" href="#TotalLook">Total Look</a>
+                <a class="txt footer__menu__item" href="#TotalLook">Полный образ</a>
             <?php endif; ?>
         </nav>
     </div>

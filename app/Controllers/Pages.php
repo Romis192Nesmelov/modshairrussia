@@ -214,7 +214,7 @@ class Pages extends BaseController
                 'block_title' => 'Выберите свой тип услуги из меню <span class="color_primary">ухода</span> за ногтями ' . PROJECT_HTML . ':',
                 'items' => [
                     [
-                        'title' => 'SPA маникюр',
+                        'title' => 'СПА маникюр',
                         'slug' => 'spa-manicure',
                         'text' => 'Комплекс услуг который включает в себя: снятие любого покрытия, придание формы ногтям, обработка кутикулы, скрабирование рук, массаж, маска для рук и покрытие',
                     ],
@@ -224,7 +224,7 @@ class Pages extends BaseController
                         'text' => 'Комплекс услуг который включает в себя: снятие любого покрытия, придание формы ногтям, обработку кутикулы, массаж, покрытие.',
                     ],
                     [
-                        'title' => 'SPA педикюр',
+                        'title' => 'СПА педикюр',
                         'slug' => 'spa-pedicure',
                         'text' => 'Комплекс услуг который включает в себя:, снятие любого покрытия, придание формы ногтям, обработку кутикулы, удаление ороговевшей кожи стоп, скрабирование ног, массаж, маска для ног, покрытие.',
                     ],
@@ -494,12 +494,12 @@ class Pages extends BaseController
         $data['utm'] = $this->getUtm();
         $data['service'] = [
             'slug' => 'total_look',
-            'title' => 'Total look',
+            'title' => 'Полный образ',
             'ms' => [
                 'title' => 'Салон красоты <span class="color_primary">' . PROJECT_HTML . '</span>',
                 'subtitle' => 'Легендарная сеть салонов красоты - <span class="whitespace_no-wrap">от Токио</span> <span class="whitespace_no-wrap">до Нью-Йорка</span>',
                 'link_to' => '#Services',
-                'inner_text' => 'Total Look – персонализированный комплекс услуг <span class="whitespace_no-wrap">для идеального</span> образа',
+                'inner_text' => 'Полный образ – персонализированный комплекс услуг <span class="whitespace_no-wrap">для идеального</span> образа',
             ],
             'welcome' => ['nail_1', 'nail_2'],
             'offer' => [
@@ -509,7 +509,7 @@ class Pages extends BaseController
         ];
         $data['services'] = $this->services;
         $data['custom_menu'] = [
-            '#TotalLook' => 'Total Look',
+            '#TotalLook' => 'Полный образ',
             '#Services' => 'Услуги',
             '#Contacts' => 'Контакты',
             '/academy' => 'Академия',
@@ -520,7 +520,7 @@ class Pages extends BaseController
         $data['seo_block'] = $this->BlockSeoModel->getBlockData('main');
         $data['offers'] = $this->OffersModel->getAllOffers();
         $this->mSeo['title'] = 'Новый салон красоты ' . PROJECT . ' рядом с метро Павелецкая в Москве';
-        $this->mSeo['subject'] = 'Страница Total Look';
+        $this->mSeo['subject'] = 'Страница Полный образ';
         $this->viewHead($data);
         echo view('Templates/header', $data);
         echo view('Templates/ms', $data);
@@ -556,12 +556,12 @@ class Pages extends BaseController
 
         $data['service'] = [
             'slug' => 'total_look',
-            'title' => 'Total look',
+            'title' => 'Полный образ',
             'ms' => [
                 'title' => 'Салон красоты <span class="color_primary">' . PROJECT_HTML . '</span>',
                 'subtitle' => 'Легендарная сеть салонов красоты - <span class="whitespace_no-wrap">от Токио</span> <span class="whitespace_no-wrap">до Нью-Йорка</span>',
                 'link_to' => '#Services',
-                'inner_text' => 'Total Look – персонализированный комплекс услуг <span class="whitespace_no-wrap">для идеального</span> образа',
+                'inner_text' => 'Полный образ – персонализированный комплекс услуг <span class="whitespace_no-wrap">для идеального</span> образа',
             ],
             'welcome' => ['nail_1', 'nail_2'],
             'offer' => [
@@ -572,7 +572,7 @@ class Pages extends BaseController
         $data['services'] = $this->services;
         $data['custom_menu'] = [
             '/' => 'Салон',
-            '/#TotalLook' => 'Total Look',
+            '/#TotalLook' => 'Полный образ',
             '/#Services' => 'Услуги',
             '#Contacts' => 'Контакты',
             'https://modshairfranchise.ru' => 'Франшиза'
@@ -596,12 +596,12 @@ class Pages extends BaseController
         if ($article) {
             $data['service'] = [
                 'slug' => 'total_look',
-                'title' => 'Total look',
+                'title' => 'Полный образ',
                 'ms' => [
                     'title' => 'Салон красоты <span class="color_primary">' . PROJECT_HTML . '</span>',
                     'subtitle' => 'Легендарная сеть салонов красоты - <span class="whitespace_no-wrap">от Токио</span> <span class="whitespace_no-wrap">до Нью-Йорка</span>',
                     'link_to' => '#Services',
-                    'inner_text' => 'Total Look – персонализированный комплекс услуг <span class="whitespace_no-wrap">для идеального</span> образа',
+                    'inner_text' => 'Полный образ – персонализированный комплекс услуг <span class="whitespace_no-wrap">для идеального</span> образа',
                 ],
                 'welcome' => ['nail_1', 'nail_2'],
                 'offer' => [
@@ -612,7 +612,7 @@ class Pages extends BaseController
             $data['services'] = $this->services;
             $data['custom_menu'] = [
                 '/' => 'Салон',
-                '/#TotalLook' => 'Total Look',
+                '/#TotalLook' => 'Полный образ',
                 '/#Services' => 'Услуги',
                 '#Contacts' => 'Контакты',
                 '/blog' => 'Блог',

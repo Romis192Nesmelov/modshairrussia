@@ -35,7 +35,7 @@
                 <img alt="Коллекция modshair" src="<?= base_url(); ?>/media/Templates/ms/img_collection.png">
             </div>
             <div class="template_ms__look">
-                <img alt="Total Look от modshair" src="<?= base_url(); ?>/media/Pages/<?= $service['slug']; ?>/img_look.png">
+                <img alt="Полный образ от modshair" src="<?= base_url(); ?>/media/Pages/<?= $service['slug']; ?>/img_look.png">
             </div>
         </div>
     </section>

@@ -7,7 +7,7 @@
             </div>
             <form class="form template_subscribe__form">
                 <p class="big template_subscribe__form__title"><b>Запишись онлайн или по телефону</b></p>
-                <p class="template_subscribe__form__subtitle">При покупке Total Look шампунь созданный в лаборатории <?= PROJECT_HTML; ?> в подарок</p>
+                <p class="template_subscribe__form__subtitle">При покупке «Полный образ» шампунь созданный в лаборатории <?= PROJECT_HTML; ?> в подарок</p>
                 <div class="row">
                     <?= view('Templates/input_text', [
                         'name' => 'phone',
