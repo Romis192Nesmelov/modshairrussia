@@ -37,7 +37,7 @@
             <h2 class="section__heading__title">Ознакомиться с полным <span class="color_primary"> меню услуг</span></h2>
         </div>
         <div class="template_pricelist__inner">
-            <a class="template__pricelist-link" href="<?= base_url(); ?>/media/mods_price_2025.pdf">
+            <a class="template__pricelist-link" href="<?= base_url(); ?>/media/mods_price_2026.pdf">
                 <svg width="26" height="41" viewBox="0 0 26 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M14.5 0H20H25.5L11.5 41H0.5L14.5 0Z" fill="white"/>
                 </svg>
