@@ -10,7 +10,7 @@
     </div>
     <div class="section_collections__info__content">
         <div class="section_collections__info__video">
-            <iframe src="https://vkvideo.ru/video_ext.php?oid=542365921&id=456239022&hd=2&autoplay=1" style="width: 100%; border: 0 none" height="400" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+			<iframe src="https://vkvideo.ru/video_ext.php?oid=-188546791&id=456239436&hd=4" style="width: 100%; border: 0 none" height="400" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
         </div>
         <?php $steps = [
             'ногтевой_1' => [
