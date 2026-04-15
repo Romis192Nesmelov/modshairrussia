@@ -15,31 +15,31 @@
 <?php endif; ?>
 
 <div  class="mobile-app-overlay"></div>
-<div class="mobile-app-popup">
-<!--    <div>-->
-<!--        <div class="block left">-->
-<!--            <div class="big">Технические неполадки <br>со связью!</div>-->
-<!--            <div class="small-red">Мы скоро все починим</div>-->
-<!--            <div class="promo-footer">Записывайтесь<br><span>онлайн</span> или по номеру-->
-<!--                <div class="phone"><a href="tel:+74952150502" target="_blank">+7(495)215-05-02</a></div>-->
-<!--                <img class="arrow-red" src="/assets/imgs/arrow_red.svg">-->
-<!--                <img class="arrow-white" src="/assets/imgs/arrow_white.svg">-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="block right">-->
-<!--            <a class="record-button" href="https://sycret.ru/service/ob/#/?apikey=ckr19uz48z14agow&utm_source=seo" target="_blank">Записаться</a>-->
-<!--        </div>-->
-<!--    </div>-->
-
-    <ul class="mobile-app__features-list">
-        <li class="mobile-app__feature">Получайте бонусы</li>
-        <li class="mobile-app__feature">Дарите подарки</li>
-        <li class="mobile-app__feature">Быстрая запись</li>
-        <li class="mobile-app__feature">Будьте первыми</li>
-    </ul>
-    <div class="mobile-app__container">
-        <div class="mobile-app__description"><span class="mobile-app__high">Скачайте</span> мобильное приложение Mod’s Hair Paris</div>
-        <a href="https://mymodshair.ru/proga" target="_blank" class="mobile-app__link btn" id="mobileAppLink">Скачать</a>
+<div class="mobile-app-popup technical-problems">
+    <div>
+        <div class="block left">
+            <div class="big">Технические неполадки <br>со связью!</div>
+            <div class="small-red">Мы скоро все починим</div>
+            <div class="promo-footer">Записывайтесь<br><span>онлайн</span> или по номеру
+                <div class="phone"><a href="tel:+74952150502" target="_blank">+7(495)215-05-02</a></div>
+                <img class="arrow-red" src="/assets/imgs/arrow_red.svg">
+                <img class="arrow-white" src="/assets/imgs/arrow_white.svg">
+            </div>
+        </div>
+        <div class="block right">
+            <a class="record-button" href="https://sycret.ru/service/ob/#/?apikey=ckr19uz48z14agow&utm_source=seo" target="_blank">Записаться</a>
+        </div>
     </div>
+
+<!--    <ul class="mobile-app__features-list">-->
+<!--        <li class="mobile-app__feature">Получайте бонусы</li>-->
+<!--        <li class="mobile-app__feature">Дарите подарки</li>-->
+<!--        <li class="mobile-app__feature">Быстрая запись</li>-->
+<!--        <li class="mobile-app__feature">Будьте первыми</li>-->
+<!--    </ul>-->
+<!--    <div class="mobile-app__container">-->
+<!--        <div class="mobile-app__description"><span class="mobile-app__high">Скачайте</span> мобильное приложение Mod’s Hair Paris</div>-->
+        <a href="https://mymodshair.ru/proga" target="_blank" class="mobile-app__link btn" id="mobileAppLink">Скачать</a>
+<!--    </div>-->
     <button type="button" class="mobile-app-popup__close-btn close" aria-label="Закрыть окно"></button>
 </div>

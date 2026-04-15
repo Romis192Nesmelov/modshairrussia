@@ -3829,6 +3829,10 @@ b, .template_benefits .template_benefits__inner .template_benefits__inner__item 
   padding: 25px;
 }
 
+.mobile-app-popup.technical-problems #mobileAppLink {
+  display: none;
+}
+
 .mobile-app-popup.technical-problems > div {
   width: 100%;
   display: flex;
