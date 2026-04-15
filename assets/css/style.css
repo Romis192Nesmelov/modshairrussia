@@ -3821,6 +3821,94 @@ b, .template_benefits .template_benefits__inner .template_benefits__inner__item 
   padding-bottom: 65px;
 }
 
+.mobile-app-popup.technical-problems {
+  background-color: black;
+  background-image: url("../imgs/handset_to_left.png");
+  background-size: auto 100%;
+  background-position: right;
+  padding: 25px;
+}
+
+.mobile-app-popup.technical-problems > div {
+  width: 100%;
+  display: flex;
+}
+
+.mobile-app-popup.technical-problems .block.left {
+  width: 60%;
+}
+
+.mobile-app-popup.technical-problems .block.right {
+  width: 40%;
+}
+
+.mobile-app-popup.technical-problems .block.left .big {
+  font-size: 35px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: white;
+  line-height: 38px;
+}
+
+.mobile-app-popup.technical-problems .block.left .small-red {
+  color: #EE383E;
+  font-size: 18px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.mobile-app-popup.technical-problems .block.left .arrow-red {
+  width: 120px;
+  position: absolute;
+  bottom: 70px;
+  margin-left: 280px;
+}
+
+.mobile-app-popup.technical-problems .block.left .arrow-white {
+  width: 50px;
+  position: absolute;
+  margin-left: 10px;
+  bottom: 40px;
+  display: none;
+}
+
+.mobile-app-popup.technical-problems .block.left .promo-footer {
+  position: static;
+  color: white;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: bolder;
+  margin-top: 30px;
+}
+
+.mobile-app-popup.technical-problems .block.left .promo-footer span {
+  color: #EE383E;
+}
+
+.mobile-app-popup.technical-problems .block.left .promo-footer .phone {
+  width: 310px;
+  text-align: left;
+  color: #EE383E;
+}
+
+.mobile-app-popup.technical-problems .block.right {
+  display: flex;
+  justify-content: right;
+  align-items: end;
+}
+
+.mobile-app-popup.technical-problems .block.right .record-button {
+  padding: 12px 20px;
+  border-radius: 26px;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bolder;
+  background: #EE383E;
+}
+
+
 .mobile-app-popup__close-btn {
   top: 16px;
   right: 24px;
@@ -3835,6 +3923,11 @@ b, .template_benefits .template_benefits__inner .template_benefits__inner__item 
 .mobile-app-popup__close-btn.close::before {
   width: 20px;
   background-color: #000000
+}
+
+.mobile-app-popup.technical-problems .mobile-app-popup__close-btn.close::after,
+.mobile-app-popup.technical-problems .mobile-app-popup__close-btn.close::before {
+  background-color: #EE383E;
 }
 
 .mobile-app__features-list {
@@ -3898,6 +3991,37 @@ b, .template_benefits .template_benefits__inner .template_benefits__inner__item 
     background-image: url(../../media/Templates/offer/mobile_app_phone.png), url(../../media/Templates/offer/mobile_app_sign.png);
     background-size: 61%, 70%;
     background-position: right 0px bottom 0px, top 75px left 25px;
+  }
+
+  .mobile-app-popup.technical-problems {
+    background-image: url("../imgs/handset_to_right.png");
+    background-position: right !important;
+  }
+
+  .mobile-app-popup.technical-problems > div {
+    display: block;
+  }
+
+  .mobile-app-popup.technical-problems .block {
+    width: 100% !important;
+  }
+
+  .mobile-app-popup.technical-problems .block.left .promo-footer .phone {
+    text-align: right;
+  }
+
+  .mobile-app-popup.technical-problems .block.right {
+    display: block;
+    padding: 40px 0 20px 0;
+    text-align: center;
+  }
+
+  .mobile-app-popup.technical-problems .block.left .arrow-red {
+    display: none;
+  }
+
+  .mobile-app-popup.technical-problems .block.left .arrow-white {
+    display: block;
   }
 
   .mobile-app__container {
