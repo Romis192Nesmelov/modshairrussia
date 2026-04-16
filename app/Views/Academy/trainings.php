@@ -252,8 +252,7 @@
                                     <br>
                                 </strong>
                             </p>
-                            <button class="btn" sanity-popup-trigger="<?= $item['slug'] ?>">Записаться на обучение
-                            </button>
+<!--                            <button class="btn" sanity-popup-trigger="--><?php //= $item['slug'] ?><!--">Записаться на обучение</button>-->
                         </div>
                     </div>
                 </div>

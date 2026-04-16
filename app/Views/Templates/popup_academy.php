@@ -20,7 +20,6 @@
                 <input type="submit" class="btn" value="Отправить">
             </div>
             <p style="font-size: 11px; font-style: italic; text-decoration: underline">Нажимая кнопку “Отправить”, я даю согласие на обработку и хранение персональных данных и соглашаюсь с <a href="<?= base_url(); ?>/media/policy_mods.pdf" target="_blank">политикой конфиденциальности</a> </p>
-
         </form>
     </div>
 </div>

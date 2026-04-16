@@ -28,20 +28,20 @@
         </form>
     </div>
 </div>
-<div class="promo-footer d-none">
-    <div class="promo-footer__container">
-        <div class="promo-footer__title">Успей записаться за:</div>
-        <div class="timer" style="margin-left: 0;">
-            <span class="timer-section minute-1">0</span>
-            <span class="timer-section minute-2">0</span>
-            <span class="timer-separator">:</span>
-            <span class="timer-section second-1">0</span>
-            <span class="timer-section second-2">0</span>
-        </div>
-        <div class="promo-footer__title promo-footer__title--big">Запишитесь на любую услугу и получите скидку 20% на первый визит!</div>
-        <button class="promo-footer__cta" style="border-radius: 15px" type="button" sanity-popup-trigger="promo-offer">
-            Записаться!
-        </button>
-        <button class="promo-footer__close" aria-label="Закрыть уведомление" type="button"></button>
-    </div>
-</div>
+<!--<div class="promo-footer d-none">-->
+<!--    <div class="promo-footer__container">-->
+<!--        <div class="promo-footer__title">Успей записаться за:</div>-->
+<!--        <div class="timer" style="margin-left: 0;">-->
+<!--            <span class="timer-section minute-1">0</span>-->
+<!--            <span class="timer-section minute-2">0</span>-->
+<!--            <span class="timer-separator">:</span>-->
+<!--            <span class="timer-section second-1">0</span>-->
+<!--            <span class="timer-section second-2">0</span>-->
+<!--        </div>-->
+<!--        <div class="promo-footer__title promo-footer__title--big">Запишитесь на любую услугу и получите скидку 20% на первый визит!</div>-->
+<!--        <button class="promo-footer__cta" style="border-radius: 15px" type="button" sanity-popup-trigger="promo-offer">-->
+<!--            Записаться!-->
+<!--        </button>-->
+<!--        <button class="promo-footer__close" aria-label="Закрыть уведомление" type="button"></button>-->
+<!--    </div>-->
+<!--</div>-->

@@ -98,8 +98,8 @@
     <?php endif; ?>
     <?php $count++; ?>
     <?php endforeach; ?>
-    <div class="template_welcome__action">
-        <button class="btn" sanity-popup-trigger="subscribe">Записаться</button>
-    </div>
+<!--    <div class="template_welcome__action">-->
+<!--        <button class="btn" sanity-popup-trigger="subscribe">Записаться</button>-->
+<!--    </div>-->
     </div>
 </section>

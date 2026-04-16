@@ -10,24 +10,24 @@
                     <a class="btn" href="<?= !empty($service['ms']['link_to']) ? $service['ms']['link_to'] : '#Style'; ?>">Выбрать</a>
                 </div>
             </div>
-            <form class="form template_ms__form">
-                <h2 class="big template_ms__form__title"><?= !empty($service['ms']['form_title']) ? $service['ms']['form_title'] : 'Записаться в салон онлайн'; ?></h2>
-                <?= view('Templates/input_text', [
-                    'name' => 'name',
-                    'label' => 'Ваше имя:',
-                    'placeholder' => 'Например: Женя',
-                    'required' => true,
-                ]); ?>
-                <?= view('Templates/input_text', [
-                    'name' => 'phone',
-                    'label' => 'Ваш телефон:',
-                    'placeholder' => 'Например: 8 800 555 35 35',
-                    'required' => true,
-                ]); ?>
-                <input type="hidden" name="subject" value="<?= $service['title']; ?>">
-                <input type="submit" class="btn" value="Отправить">
-                <p style="font-size: 11px; font-style: italic; margin-top: 10px; margin-bottom: 40px">Нажимая кнопку “Отправить”, я даю согласие на обработку и хранение персональных данных и соглашаюсь с <a style="text-decoration: underline dotted;" href="<?= base_url(); ?>/media/policy_mods.pdf" target="_blank">политикой конфиденциальности</a> </p>
-            </form>
+<!--            <form class="form template_ms__form">-->
+<!--                <h2 class="big template_ms__form__title">--><?php //= !empty($service['ms']['form_title']) ? $service['ms']['form_title'] : 'Записаться в салон онлайн'; ?><!--</h2>-->
+<!--                --><?php //= view('Templates/input_text', [
+//                    'name' => 'name',
+//                    'label' => 'Ваше имя:',
+//                    'placeholder' => 'Например: Женя',
+//                    'required' => true,
+//                ]); ?>
+<!--                --><?php //= view('Templates/input_text', [
+//                    'name' => 'phone',
+//                    'label' => 'Ваш телефон:',
+//                    'placeholder' => 'Например: 8 800 555 35 35',
+//                    'required' => true,
+//                ]); ?>
+<!--                <input type="hidden" name="subject" value="--><?php //= $service['title']; ?><!--">-->
+<!--                <input type="submit" class="btn" value="Отправить">-->
+<!--                <p style="font-size: 11px; font-style: italic; margin-top: 10px; margin-bottom: 40px">Нажимая кнопку “Отправить”, я даю согласие на обработку и хранение персональных данных и соглашаюсь с <a style="text-decoration: underline dotted;" href="--><?php //= base_url(); ?><!--/media/policy_mods.pdf" target="_blank">политикой конфиденциальности</a> </p>-->
+<!--            </form>-->
             <div class="template_ms__image">
                 <img alt="Инструменты стилистов" src="<?= base_url(); ?>/media/Pages/<?= $service['slug']; ?>/img_atts.png">
             </div>

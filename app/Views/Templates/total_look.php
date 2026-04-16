@@ -269,7 +269,7 @@
                                         <span class="whitespace_no-wrap">в салоне</span> <?= PROJECT_HTML; ?>
                                     </strong>
                                 </p>
-                                <button class="btn" sanity-popup-trigger="subscribe">Записаться</button>
+<!--                                <button class="btn" sanity-popup-trigger="subscribe">Записаться</button>-->
                             </div>
                         </div>
                     <?php endif; ?>

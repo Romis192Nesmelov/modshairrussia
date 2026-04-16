@@ -25,8 +25,8 @@
                 <img src="<?= base_url(); ?>/media/Templates/sales/day.jpg" alt="Акция в <?= PROJECT; ?>">
             </div>
         </div>
-        <div class="template_sales__action">
-            <button class="btn" sanity-popup-trigger="subscribe">Записаться</button>
-        </div>
+<!--        <div class="template_sales__action">-->
+<!--            <button class="btn" sanity-popup-trigger="subscribe">Записаться</button>-->
+<!--        </div>-->
     </div>
 </section>
