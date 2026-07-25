@@ -10,19 +10,19 @@
     </div>
     <div class="section_collections__info__content">
         <div class="section_collections__info__video">
-            <iframe src="https://vkvideo.ru/video_ext.php?oid=542365921&id=456239022&hd=2&autoplay=1" style="width: 100%; border: 0 none" height="400" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+			<iframe src="https://vkvideo.ru/video_ext.php?oid=-188546791&id=456239436&hd=4" style="width: 100%; border: 0 none" height="400" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
         </div>
         <?php $steps = [
-            'nail_1' => [
+            'ногтевой_1' => [
                 'slug' => 'nail_1',
-                'title' => 'Nail сервис в салоне ' . PROJECT,
-                'title_html' => 'Nail сервис <span class="whitespace_no-wrap">в салоне</span> ' . PROJECT_HTML,
+                'title' => 'ногтевой сервис в салоне' . PROJECT,
+                'title_html' => 'ногтевой сервис <span class="whitespace_no-wrap">в салоне</span> ' . PROJECT_HTML,
                 'content' => 'Настоящее наслаждение для ваших рук и ног Комплексный подход включает массаж, скрабирование рук,   придание формы, покрытие, масло для кутикулы. Может быть как аппаратных, европейский, так и классический.',
             ],
-            'nail_2' => [
+            'ногтевой_2' => [
                 'slug' => 'nail_2',
-                'title' => 'Совершенный nail сервис',
-                'title_html' => 'Совершенный nail сервис',
+                'title' => 'Совершенный ногтевой сервис',
+                'title_html' => 'Совершенный ногтевой сервис',
                 'content' => 'в сочетании с идеальным, культовым покрытием широкой палитры сочных оттенков лака Smith & Cult'
             ],
             'haircut' => [
@@ -98,8 +98,8 @@
     <?php endif; ?>
     <?php $count++; ?>
     <?php endforeach; ?>
-    <div class="template_welcome__action">
-        <button class="btn" sanity-popup-trigger="subscribe">Записаться</button>
-    </div>
+<!--    <div class="template_welcome__action">-->
+<!--        <button class="btn" sanity-popup-trigger="subscribe">Записаться</button>-->
+<!--    </div>-->
     </div>
 </section>

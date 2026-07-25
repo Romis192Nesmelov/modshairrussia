@@ -9,7 +9,7 @@
                     <a class="txt whitespace_no-wrap roistat_number" href="tel:<?= SITE_PHONE_LINK; ?>"
                        onclick="yaCounter53846524.reachGoal('KlicknaTelefon'); gtag('event', 'done', {'event_category': 'KlicknaTelefon'});"><?= SITE_PHONE; ?></a></b>
             </p>
-            <p class="popup_subscribe__form__subtitle">При покупке Total Look шампунь созданный <span class="whitespace_no-wrap">в лаборатории</span>
+            <p class="popup_subscribe__form__subtitle">При покупке «Полный образ» шампунь созданный <span class="whitespace_no-wrap">в лаборатории</span>
                 <?= PROJECT_HTML; ?> <span class="whitespace_no-wrap">в подарок</span></p>
             <div class="row">
                 <?= view('Templates/input_text', [

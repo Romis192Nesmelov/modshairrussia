@@ -18,7 +18,7 @@
                 <a class="txt header__menu__item" href="#Team">Специалисты</a>
                 <a class="txt header__menu__item" href="#Benefits">Преимущества</a>
                 <a class="txt header__menu__item" href="#Pricelist">Меню</a>
-                <a class="txt header__menu__item" href="#TotalLook">Total Look</a>
+                <a class="txt header__menu__item" href="#TotalLook">Полный образ</a>
                 <a class="txt header__menu__item" href="/blog">Блог</a>
                 <a class="txt header__menu__item mobile-header-item" href="/la_french">Окрашивание La french</a>
                 <a class="header__phone header__menu__item txt roistat_number mobile-header-item"

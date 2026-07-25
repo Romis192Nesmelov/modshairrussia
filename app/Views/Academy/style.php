@@ -60,7 +60,7 @@
                                                 <div class="template_style__content__item__wrapper">
                                                     <p class="big template_style__content__item__title"><?= $value['title']; ?></p>
                                                     <?= !empty($value['text']) ? '<p class="small template_style__content__item__subtitle">' . $value['text'] . '</p>' : ''; ?>
-                                                    <button class="btn" sanity-popup-trigger="subscribe">Записаться</button>
+<!--                                                    <button class="btn" sanity-popup-trigger="subscribe">Записаться</button>-->
                                                 </div>
                                             </div>
                                         <?php endforeach; ?>

@@ -11,7 +11,7 @@
             </div>
             <div class="template_privilege__inner__item quote">
                 <p class="small template_privilege__inner__item__text ">Просто заполните анкету в салоне, получите
-                    <span class="whitespace_no-wrap">500 Welcome-бонусов</span> <span class="whitespace_no-wrap">и воспользуйтесь</span>
+                    <span class="whitespace_no-wrap">500 Приветственных бонусов</span> <span class="whitespace_no-wrap">и воспользуйтесь</span>
                     <span class="whitespace_no-wrap">ими при следующем</span> визите!</p>
             </div>
             <div class="template_privilege__inner__item quote">

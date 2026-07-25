@@ -18,6 +18,21 @@
 <div  class="cookie-app-overlay"></div>
 
 <div class="mobile-app-popup">
+<!--    <div>-->
+<!--        <div class="block left">-->
+<!--            <div class="big">Технические неполадки <br>со связью!</div>-->
+<!--            <div class="small-red">Мы скоро все починим</div>-->
+<!--            <div class="promo-footer">Записывайтесь<br><span>онлайн</span> или по номеру-->
+<!--                <div class="phone"><a href="tel:+74952150502" target="_blank">+7(495)215-05-02</a></div>-->
+<!--                <img class="arrow-red" src="/assets/imgs/arrow_red.svg">-->
+<!--                <img class="arrow-white" src="/assets/imgs/arrow_white.svg">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="block right">-->
+<!--            <a class="record-button" href="https://sycret.ru/service/ob/#/?apikey=ckr19uz48z14agow&utm_source=seo" target="_blank">Записаться</a>-->
+<!--        </div>-->
+<!--    </div>-->
+
     <ul class="mobile-app__features-list">
         <li class="mobile-app__feature">Получайте бонусы</li>
         <li class="mobile-app__feature">Дарите подарки</li>
