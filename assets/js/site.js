@@ -93,29 +93,51 @@ $(document).ready(function () {
     }
     const mobileAppShowedKey = 'mobileAppShowed';
     const mobileAppShowed = Boolean(window.localStorage.getItem(mobileAppShowedKey));
+
     if (!mobileAppShowed) {
+
         const mobileAppOverlay = document.querySelector('.mobile-app-overlay');
         const mobileAppPopup = document.querySelector('.mobile-app-popup');
         const mobileAppCloseBtn = document.querySelector('.mobile-app-popup__close-btn');
         const mobileAppLink = document.querySelector('#mobileAppLink');
-        if (mobileAppOverlay && mobileAppPopup && mobileAppCloseBtn && mobileAppLink) {
-            mobileAppOverlay.classList.add('mobile-app-show');
-            mobileAppPopup.classList.add('mobile-app-show');
-            const closePopup = () => {
-                mobileAppOverlay.classList.remove('mobile-app-show');
-                mobileAppPopup.classList.remove('mobile-app-show');
-            };
-            mobileAppCloseBtn.addEventListener('click', closePopup);
-            mobileAppLink.addEventListener('click', () => {
-                closePopup();
-                window.localStorage.setItem(mobileAppShowedKey, 'true');
-            });
-            mobileAppOverlay.addEventListener('click', (evt) => {
-                if (evt.currentTarget === mobileAppOverlay) {
-                    closePopup();
+
+        const cookieAppOverlay = document.querySelector('.cookie-app-overlay');
+        const cookieAppPopup = document.querySelector('.cookie-app-popup');
+        const cookieAppCloseBtn = document.querySelector('.cookie-app-popup__close-btn');
+
+        if (cookieAppOverlay && cookieAppPopup && cookieAppCloseBtn) {
+            cookieAppOverlay.classList.add('mobile-app-show');
+            cookieAppPopup.classList.add('mobile-app-show');
+
+            const closeCookiePopup = () => {
+                cookieAppOverlay.classList.remove('mobile-app-show');
+                cookieAppPopup.classList.remove('mobile-app-show');
+
+                if (mobileAppOverlay && mobileAppPopup && mobileAppCloseBtn && mobileAppLink) {
+                    mobileAppOverlay.classList.add('mobile-app-show');
+                    mobileAppPopup.classList.add('mobile-app-show');
+
+                    const closeMobilePopup = () => {
+                        mobileAppOverlay.classList.remove('mobile-app-show');
+                        mobileAppPopup.classList.remove('mobile-app-show');
+                    };
+
+                    mobileAppCloseBtn.addEventListener('click', closeMobilePopup);
+                    mobileAppLink.addEventListener('click', () => {
+                        closeMobilePopup();
+                        window.localStorage.setItem(mobileAppShowedKey, 'true');
+                    });
+                    mobileAppOverlay.addEventListener('click', (evt) => {
+                        if (evt.currentTarget === mobileAppOverlay) {
+                            closeMobilePopup();
+                        }
+                    });
+                    return;
                 }
-            });
-            return;
+            }
+
+            cookieAppCloseBtn.addEventListener('click', closeCookiePopup);
+            cookieAppOverlay.addEventListener('click', closeCookiePopup);
         }
     }
     if (window.localStorage.getItem('discountFormSubmited')) {

@@ -82,10 +82,13 @@ $routes->get('staining', 'Pages::staining');
 $routes->get('manicure', 'Pages::manicure');
 $routes->get('makeup', 'Pages::makeup');
 $routes->add('send', 'Pages::send');
-$routes->get('oferta',         static fn() => view('Templates/oferta'));
-$routes->get('payment-refund', static fn() => view('Templates/payment_refund'));
-$routes->get('requisites',     static fn() => view('Templates/requisites'));
+//$routes->get('oferta',         static fn() => view('Templates/oferta'));
+//$routes->get('payment-refund', static fn() => view('Templates/payment_refund'));
+//$routes->get('requisites',     static fn() => view('Templates/requisites'));
 $routes->get('privacy-policy', static fn() => view('Templates/privacy_policy'));
+$routes->get('consent-to-processing-personal-data', static fn() => view('Templates/consent_to_processing_personal_data'));
+$routes->get('cookies-policy', static fn() => view('Templates/cookies_policy'));
+$routes->get('personal-data', static fn() => view('Templates/personal_data'));
 
 $routes->get('academy', 'Academy::index');
 /**

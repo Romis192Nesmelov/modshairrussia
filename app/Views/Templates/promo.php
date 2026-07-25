@@ -14,7 +14,9 @@
     </section>
 <?php endif; ?>
 
-<div  class="mobile-app-overlay"></div>
+<div class="mobile-app-overlay"></div>
+<div  class="cookie-app-overlay"></div>
+
 <div class="mobile-app-popup">
     <ul class="mobile-app__features-list">
         <li class="mobile-app__feature">Получайте бонусы</li>
@@ -27,4 +29,10 @@
         <a href="https://mymodshair.ru/proga" target="_blank" class="mobile-app__link btn" id="mobileAppLink">Скачать</a>
     </div>
     <button type="button" class="mobile-app-popup__close-btn close" aria-label="Закрыть окно"></button>
+</div>
+
+<div class="cookie-app-popup">
+    <div class="mobile-app__description"><span class="mobile-app__high">Мы используем cookies.</span><br />Это позволяет нам анализировать взаимодействие посетителей с сайтом и делать его лучше.</div>
+    <div class="mobile-app__description">Продолжая пользоваться сайтом, вы даете согласие на <a href="<?= base_url('consent-to-processing-personal-data'); ?>" target="_blank">обработку данных cookies</a></div>
+    <button type="button" class="cookie-app-popup__close-btn close" aria-label="Закрыть окно"></button>
 </div>

@@ -29,10 +29,13 @@
         <!-- === LEGAL LINKS (Robokassa) === -->
     <div class="footer__row footer__legal">
         <ul class="footer-legal">
-            <li><a href="<?= base_url('oferta'); ?>">Оферта</a></li>
-            <li><a href="<?= base_url('payment-refund'); ?>">Оплата и возврат</a></li>
-            <li><a href="<?= base_url('requisites'); ?>">Реквизиты</a></li>
+<!--            <li><a href="--><?//= base_url('oferta'); ?><!--">Оферта</a></li>-->
+<!--            <li><a href="--><?//= base_url('payment-refund'); ?><!--">Оплата и возврат</a></li>-->
+<!--            <li><a href="--><?//= base_url('requisites'); ?><!--">Реквизиты</a></li>-->
             <li><a href="<?= base_url('privacy-policy'); ?>">Политика конфиденциальности</a></li>
+            <li><a href="<?= base_url('consent-to-processing-personal-data'); ?>">Согласие на обработку персональных данных</a></li>
+            <li><a href="<?= base_url('cookies-policy'); ?>">Политика использования файлов cookies</a></li>
+            <li><a href="<?= base_url('personal-data'); ?>">Политика в отношении обработки персональных данных</a></li>
         </ul>
     </div>
     <!-- === /LEGAL LINKS === -->

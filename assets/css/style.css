@@ -3777,7 +3777,8 @@ b, .template_benefits .template_benefits__inner .template_benefits__inner__item 
   transform: rotate(0deg)
 }
 
-.mobile-app-overlay {
+.mobile-app-overlay,
+.cookie-app-overlay {
   position: fixed;
   z-index: 99;
   left: 0;
@@ -3790,7 +3791,8 @@ b, .template_benefits .template_benefits__inner .template_benefits__inner__item 
   opacity: 0
 }
 
-.mobile-app-popup {
+.mobile-app-popup,
+.cookie-app-popup {
   position: fixed !important;
   bottom: 50%;
   right: 50%;
@@ -3815,7 +3817,13 @@ b, .template_benefits .template_benefits__inner .template_benefits__inner__item 
   padding-bottom: 65px;
 }
 
-.mobile-app-popup__close-btn {
+.cookie-app-popup {
+  background-image: none;
+  padding-bottom: 25px;
+}
+
+.mobile-app-popup__close-btn,
+.cookie-app-popup__close-btn {
   top: 16px;
   right: 24px;
   border: 0 none;
@@ -3826,7 +3834,9 @@ b, .template_benefits .template_benefits__inner .template_benefits__inner__item 
 }
 
 .mobile-app-popup__close-btn.close::after,
-.mobile-app-popup__close-btn.close::before {
+.mobile-app-popup__close-btn.close::before,
+.cookie-app-popup__close-btn.close::after,
+.cookie-app-popup__close-btn.close::before {
   width: 20px;
   background-color: #000000
 }
@@ -3879,11 +3889,25 @@ b, .template_benefits .template_benefits__inner .template_benefits__inner__item 
   font-weight: 500;
 }
 
+.cookie-app-popup .mobile-app__description {
+  width: 90%;
+  font-size: 20px;
+}
+
+.cookie-app-popup .mobile-app__description:first-child {
+  margin-bottom: 20px;
+}
+
 .mobile-app__high {
   border-bottom: 3px solid #ee383e;
 }
 
 @media only screen and (max-width: 650px) {
+  .cookie-app-popup {
+    width: 90vw;
+    height: auto;
+  }
+
   .mobile-app-popup {
     width: 90vw;
     height: auto;
