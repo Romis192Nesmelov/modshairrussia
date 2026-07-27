@@ -64,5 +64,7 @@
         <a href="https://primeproduction.ru/" target="_blank">
             <img src="<?= base_url(); ?>/media/logo_full_horizontal_black-white.svg" alt="Prime Production">
         </a>
+
+        <p style="margin-top: 25px; text-align: center;">ИП Перфилова Наталия Александровна<br />ИНН: 772732598033<br />ОГРНИП: 319774600013235<br />Адрес: Россия, Москва, Чечерский пр-д, д. 104, 107<br /><small>Использует товарный знак Mod’s Hair по договору франшизы от правообладателя, регистрация в Роспатенте от 12.03.2020 №РД0328029<br />Если вы являетесь правообладателем материалов, размещённых на сайте (включая изображения и фотографии), и считаете, что их использование нарушает ваши права, или возражаете против их использования, пожалуйста, свяжитесь с нами: <a href="mailto:franchise@modshairrussia.ru">franchise@modshairrussia.ru</a></small></p>
     </div>
 </footer>

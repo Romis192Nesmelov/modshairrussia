@@ -533,7 +533,7 @@ class Pages extends BaseController
         echo view('Templates/pricelist', $data);
         //echo view('Templates/subscribe', $data);
         echo view('Templates/offer', $data);
-        echo view('Templates/contacts');
+//        echo view('Templates/contacts');
         echo view('Templates/seo_block', $data);
         echo view('Templates/footer', $data);
         echo view('Templates/popup_subscribe', $data);
@@ -582,7 +582,7 @@ class Pages extends BaseController
         $this->viewHead($data);
         echo view('Templates/header', $data);
         echo view('Templates/blog', ['blog' => $articles, 'paginator' => $paginator]);
-        echo view('Templates/contacts');
+//        echo view('Templates/contacts');
         echo view('Templates/footer', $data);
         echo view('Templates/popup_subscribe', $data);
         echo view('Templates/promo_offer', $data);
@@ -625,7 +625,7 @@ class Pages extends BaseController
             $this->viewHead($data);
             echo view('Templates/header', $data);
             echo view('Templates/article', ['article' => $article]);
-            echo view('Templates/contacts');
+//            echo view('Templates/contacts');
             echo view('Templates/footer', $data);
             echo view('Templates/popup_subscribe', $data);
             echo view('Templates/promo_offer', $data);
@@ -752,7 +752,7 @@ class Pages extends BaseController
         $this->viewHead($data);
         echo view('Templates/header', $data);
         echo view('Templates/la_french', $data);
-        echo view('Templates/contacts');
+//        echo view('Templates/contacts');
         echo view('Templates/footer', $data);
         echo view('Templates/popup_subscribe');
         echo view('Templates/popup_subscribe_widget', $data);
@@ -784,7 +784,7 @@ class Pages extends BaseController
         $this->viewHead($data);
         echo view('Templates/header', $data);
         echo view('Templates/smart_haircut', $data);
-        echo view('Templates/contacts');
+//        echo view('Templates/contacts');
         echo view('Templates/footer', $data);
         echo view('Templates/popup_subscribe');
         echo view('Templates/popup_subscribe_widget', $data);
@@ -825,7 +825,7 @@ class Pages extends BaseController
         echo view('Templates/catalog');
         echo view('Templates/privilege');
         echo view('Templates/offer', $data);
-        echo view('Templates/contacts');
+//        echo view('Templates/contacts');
         echo view('Templates/seo_block', $data);
         echo view('Templates/footer');
         echo view('Templates/popup_subscribe', $data);
